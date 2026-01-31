@@ -27,11 +27,11 @@
 Project Name - Todo App 
 A Todo App that not only lets users add/delete tasks but also includes:
 
-Task completion tracking
-Filters (all / active / completed)
-Search functionality
-Task reminders (timers)
-Analytics (total tasks, completed, pending)
-Dark/light theme toggle
-Data persistence in localStorage
-Optional: simulate server save with async/Promises
+1. Task completion tracking
+2. Filters (all / active / completed)
+3. Search functionality
+4. Task reminders (timers)
+5. Analytics (total tasks, completed, pending)
+6. Dark/light theme toggle
+7. Data persistence in localStorage
+8. Optional: simulate server save with async/Promises
