@@ -1,7 +1,7 @@
 # JavaScript-Learning
 
 1. Data Types & Variables
-
+https://chatgpt.com/c/697d8df8-fe40-8321-a9f7-6b32df8ccad8
 2. Operators
 
 3. Functions
