@@ -9,8 +9,8 @@ function getName1() {
 }
 
 // //With let and const , calling before declaration ( with variable and functions ) It not allowed in JS
-getName2(); //error
-console.log(y); //error
+// getName2(); //error
+// console.log(y); //error
 let y = 7;
 let getName2 = function () {
   console.log("My Name is Neha");
@@ -54,7 +54,37 @@ var display = function () {
 //So when we try to access variable inside temporal dead zone gives REFERENCE ERROR
 //RULE TO AVOID TEMPORAL DEAD ZONE IS TO ALWAYS KEEP DECLARATION AND INITIALIZATION AT TOP
 
-//#LEXICAL SCOPE 
+//#LEXICAL (Hierarchy or in sequence) SCOPE
+//also known as scope chain
 
+//Scope chain means JavaScript looks for a variable step by step—first in the current place,
+//then outside, and keeps going until it finds it or reaches the global scope.
+
+function a() {
+  var b = 10;
+  c();
+  function c() {
+    console.log(b); //It prints
+  }
+}
+
+// a();
+// console.log(b);//Error
 
 // #CLOSURE
+//Function returns with lexical scope - When a function is returned from another function , it does not go alone
+//It takes along the variables from places where it was created ( lexical scope )
+
+function outer() {
+  //lexcial scope
+  let count = 11;
+
+  function inner() {
+    console.log(count);
+  }
+
+  return inner; // when it returns JS keeps count alive so inner still can use
+}
+
+const fn = outer();
+fn(); //it prints 1
