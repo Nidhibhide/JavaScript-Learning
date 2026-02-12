@@ -2,21 +2,13 @@
 
 1. Data Types & Variables
 
-2. Operators
+3. Functions i.e callback hell 
 
-3. Functions
+4. Objects & Arrays & Strings
 
-4. Objects & Arrays
+7. Asynchronous JavaScript i.e event loop , promises , async await 
 
-5. this, call, apply, bind
-
-6. Scope & Hoisting
-
-7. Asynchronous JavaScript
-
-8. Error Handling
-
-9. DOM Manipulation
+9. DOM Manipulation & Events
 
 10. Browser Storage & APIs
 
