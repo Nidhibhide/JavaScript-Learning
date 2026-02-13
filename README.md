@@ -16,6 +16,8 @@
 
 12. Advanced JS Concepts
 
+prototype inheritance 
+
 Project Name - Todo App 
 A Todo App that not only lets users add/delete tasks but also includes:
 

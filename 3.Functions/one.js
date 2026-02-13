@@ -100,5 +100,44 @@ const func1 = (name) => {
 };
 func1("Nidhi");
 
-//diff betn normal and arrow function ???
-//Higher Order Functions
+const x = {
+  name: "Nidhi",
+  role: "Full stack dev",
+  exp: 5,
+  show: function () {
+    setTimeout(() => {
+      console.log(this); //whole object
+      console.log(
+        `My name is ${this.name} and role is ${this.role} and exp is ${this.exp}`,
+      );
+    }, 2000); //here display whole object coz read point ' this inside arrow func ' on these page
+    setTimeout(function () {
+      console.log(this); //window object
+      console.log(
+        `My name is ${this.name} and role is ${this.role} and exp is ${this.exp}`,
+      ); //display undefined
+    }, 2000);
+  },
+};
+
+// x.show();
+
+//Callback Functions
+//Is function will pass to another function and call afterwards when its call
+//Example - setTimeout() function 
+
+//Higher Order Functions => A function which takes another function as argument or return function from it 
+
+function X(){
+  console.log("This is Callback function X");
+}
+function Y(){
+  X();
+  console.log("This is Higher order function Y");
+}
+Y();
+
+
+//Callback hell
+//Callback Hell is a situation in JavaScript where multiple nested callbacks make the code difficult to read and maintain. 
+//also called as pyramid of dom
