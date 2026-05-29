@@ -1,0 +1,1 @@
+6.What is Prototype in JavaScript?
