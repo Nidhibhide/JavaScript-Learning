@@ -1,6 +1,6 @@
 //promise - It is object who holdes return of values of executed callback function
 
-//Promie pbject are immutable in nature
+//Promie object are immutable in nature
 
 //Promise is an object representing the eventual (in future ) completion or failure of an asynchronus operation.
 
