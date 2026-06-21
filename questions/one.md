@@ -1,11 +1,11 @@
 1.What is closure ?
 -Closure = A function bundled together with its lexical environment.
 -An inner function that captures variables from its outer function, even after the outer function finishes.
--JavaScript uses lexical scoping, meaning variable access is based on where the function is written.
+-JavaScript uses lexical scoping, meaning A function can access variables based on where it is defined in the code.
 -uses = Data Hiding , callbacks, event listeners, setTimeout
 
 2.What is hoisting ?
--Hoisting is a JavaScript mechanism where variable and function declarations are accessible before their actual declaration .
+-Hoisting is a JavaScript mechanism where variable and function declarations are accessible before they are defined in the code.
 -var is hoisted and initialized with undefined
 -let and const are hoisted but stay in the Temporal Dead Zone (TDZ) until initialization.
 -Function declarations are fully hoisted.
@@ -14,7 +14,7 @@
 3.what is TDZ ?
 -TDZ (Temporal Dead Zone) is the time between when a variable is declared and when it is initialized in memory.
 -Variables declared with let and const stay in the TDZ and cannot be accessed before initialization.
--If accessed before declaration, JavaScript throws a ReferenceError.
+-If accessed before initialization, JavaScript throws a ReferenceError.
 -TDZ prevents accessing a variable before initialization, helping avoid errors and bugs in the code.
 
 4.what is lexical scope ?

@@ -17,3 +17,6 @@ function a() {
 a();
 
 // console.log(b); //ReferenceError: b is not defined
+
+//child -> parent is allowed 
+//parent -> child is not allowed 

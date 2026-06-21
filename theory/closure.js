@@ -9,7 +9,7 @@ function x1() {
   return y1;
 }
 var z1 = x1();
-z1(); //7 coz y() return with their lexical scope i.e a=7 which inside in x()
+z1(); //7 coz y1() return with their lexical scope i.e a=7 which inside in x()
 
 //example = 2
 console.log("Below is Example - II ");

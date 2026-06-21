@@ -15,6 +15,8 @@ x(function y() {
   console.log("y");
 });
 
+//here x is HOF 
+//here y is call back func 
 //callback also can pass in event listeners
 
 //problems of callback - callback hell , inversion of control 

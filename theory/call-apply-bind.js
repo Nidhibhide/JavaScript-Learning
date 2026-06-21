@@ -45,6 +45,6 @@ function fav(food){
 }
 
 
-//bind() does not invoke immediately like apply , call it return new func with this value which can be called later
+//bind() does not invoke immediately like apply , call it return new func with 'this' value which can be called later
 const newFav=fav.bind(name,"Maggie");
 newFav();//Hello , nidhi Your fav is Maggie

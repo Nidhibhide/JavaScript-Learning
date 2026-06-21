@@ -18,7 +18,7 @@ var c = function xyz() {
 c(); //its prints
 //xyz();//Error : ReferenceError: xyz is not defined
 
-//First Class Function - function abiltiy to pass function as arg and return func from another function , also known as High Order function
+//First Class Function - function abiltiy to pass function as arg and return function , also known as High Order function
 function f1(value) {
   return value;
 }
